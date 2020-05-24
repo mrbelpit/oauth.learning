@@ -1,4 +1,4 @@
-package repository;
+package oauth.learning.demo.repository;
 
 import oauth.learning.demo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
