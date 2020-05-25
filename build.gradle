@@ -13,14 +13,19 @@ repositories {
 }
 
 dependencies {
+
     // https://mvnrepository.com/artifact/org.springframework.security/spring-security-oauth2-client
-    compile group: 'org.springframework.security', name: 'spring-security-oauth2-client', version: '5.0.0.M3'
+    compile group: 'org.springframework.security', name: 'spring-security-oauth2-client', version: '5.3.2.RELEASE'
+
     // https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
     compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.5.1'
 
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.5'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.0'
+
+    // https://mvnrepository.com/artifact/javax.validation/validation-api
+    compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
 
 
 
